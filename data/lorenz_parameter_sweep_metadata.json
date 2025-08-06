@@ -1,0 +1,25 @@
+{
+  "description": "Lorenz-63 system with varying rho parameter",
+  "system": "Lorenz-63",
+  "swept_parameter": "rho",
+  "parameter_range": [
+    10.0,
+    40.0
+  ],
+  "n_parameter_values": 16,
+  "fixed_parameters": {
+    "sigma": 10.0,
+    "beta": 2.6666666666666665
+  },
+  "initial_state": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "time_span": [
+    0,
+    40
+  ],
+  "n_points_per_trajectory": 10000,
+  "total_points": 160000
+}

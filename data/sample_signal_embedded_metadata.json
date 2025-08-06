@@ -1,0 +1,15 @@
+{
+  "description": "Time-delay embedded sample signal",
+  "source": "Synthetic sine wave with noise",
+  "original_signal": {
+    "duration_s": 10.0,
+    "sampling_rate_hz": 1000.0,
+    "frequency_hz": 5.0,
+    "noise_level": 0.2
+  },
+  "embedding": {
+    "tau": 20,
+    "embedding_dimension": 3,
+    "embedded_points": 9960
+  }
+}
